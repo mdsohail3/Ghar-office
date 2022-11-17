@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: 120px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+}
+.App {
+  color: #228b22;
+  text-align: left;
+}
+.footer {
+  background-color: rgba(78, 76, 76, 0.736);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 17px;
+  padding-left: 200px;
+}
+.footer img {
+  padding-left: 10px;
+  margin-left: 300px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: li;
+}
+.form input {
+  height: 70px;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.form button {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  left: 700px;
+  bottom: 250px;
+
+  background-color: rgb(0, 180, 180);
+  border-radius: 10px;
+}
+.adddelete {
+  color: black;
+}
+
+.adddelete button {
+  background-color: rgb(0, 180, 180);
+  height: 25px;
+  width: 70px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 10px;
+  text-align: center;
+}
+.adddelete i {
+  position: relative;
+  left: 5px;
+  bottom: 7px;
+}
+.user input {
+  height: 50px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 20px 0px 40px 370px;
+  font-size: 20px;
+  text-align: center;
+  /* margin: auto; */
+}
+
+body {
+  background-color: #fff;
+}
+
+.user {
+  background-color: rgb(230, 230, 230);
+}
+.user i{
+  color: black;
+  font-size: 30px;
+  margin-left: 200px;
+}
+
+.products {
+  display: grid;
+  width: 700px;
+  grid-template-columns: 350px 350px;
+  margin: auto;
+}
+.userdiv {
+  border-radius: 10px;
+  border: 2px solid rgb(12, 12, 12);
+  background-color: #a8aeae;
+  margin: auto;
+  width: 320px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.userdiv img {
+  border-radius: 10px;
+}
+.userdiv button {
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+.inputwid {
+  border: none;
+  height: 70px;
+}
+#adminbutton {
+  width: 400px;
+  height: 40px;
+  font-size: 30px;
+  font-style: italic;
+  background-color: rgb(102, 126, 126);
+  color: aliceblue;
+  position: relative;
+  left: 1000px;
+  bottom: 600px;
+  border-radius: 10px;
+}
+#adminbutton:hover {
+  scale: 1.2;
+}
+#addproduct {
+  width: 200px;
+  height: 40px;
+  font-size: larger;
+  font-style: italic;
+  background-color: rgb(102, 126, 126);
+  color: aliceblue;
+  position: relative;
+  left: 1200px;
+  border-radius: 10px;
+}
+table {
+  margin-left: 20px;
+  width: 1000px;
+
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.centerbutton {
+  padding: 170px;
+  padding-left: 0px;
+}
